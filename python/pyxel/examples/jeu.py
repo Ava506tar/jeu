@@ -105,7 +105,7 @@ class Game:
         self.time_m = 0
         self.ennemie = Ennemi_arbre(h,l,taille_perso,largeur_perso)
         self.player = Player(3,h,l,taille_perso,largeur_perso)
-        pyxel.load("images.pyxres")
+        pyxel.load("../assets/images.pyxres")
         pyxel.run(self.update, self.draw)
     
     def update(self):
